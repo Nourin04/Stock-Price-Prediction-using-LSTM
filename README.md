@@ -47,27 +47,6 @@ Stock_Price_Predictor_App/
 └── README.md                # This documentation
 ```
 
----
-
-## 🛠 How to Run Locally
-
-```bash
-# Clone the repo
-git clone https://github.com/your-username/Stock_Price_Predictor_App.git
-cd Stock_Price_Predictor_App
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch the app
-python app.py
-```
-
-Or if you're using Streamlit:
-
-```bash
-streamlit run app.py
-```
 
 ---
 
@@ -79,6 +58,7 @@ Key packages used:
 * `scikit-learn`
 * `gradio`
 * `numpy`
+* `joblib`
 
 Ensure compatibility of TensorFlow with your Python version (preferably Python 3.10).
 
